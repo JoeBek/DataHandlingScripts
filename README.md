@@ -1,2 +1,4 @@
 # DataHandlingScripts
-Repository Containing all of the scripts that I write involve the use of data handling scripts
+Repository Containing all of the scripts that I write involves the use of data handling.
+
+
