@@ -12,4 +12,17 @@ data = pd.read_csv(file)
 
 df = pd.DataFrame(data, columns = ['time','Vin', 'Vout'])
 
+
+
+Vdsq = 2.557
+
+
+# setting up to change the column
+def Change_Vout(Vout, Vdsq):
+    return Vout - Vdsq
+
+df['Vout'] = df['Vout'].apply(Change_Vout, args=(Vdsq))
+
+
+
 print(df.head())
